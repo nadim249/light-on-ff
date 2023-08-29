@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch Blub</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h3>Nadim</h3>
+    <img id="blub" src="img/off.gif" alt="" class="centre">
+    <button class="centre" id="toggole">Turn On</button>
+</div>
+    <script>
+        const btn =document.getElementById('toggole');
+        const Blub = document.getElementById('blub');
+        btn.addEventListener('click',toggole)
+        function toggole(e){
+            if(btn.textContent.includes('on')){
+                Blub.src ="img/on.gif"
+            btn.innerText ='Turn off';
+            }
+            else{
+                Blub.src ="img/off.gif"
+            btn.innerText ='Turn on';
+            }
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+div{
+    border: 2px solid rgb(37, 147, 244);
+    margin: 30px;
+}
+
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+button{
+    width: 100px;
+    background-color: rgb(186, 208, 48);
+    font-size: medium;
+    padding: 10px;
+    margin-top: 30px;
+}
+h3{
+    color: white;
+    padding: 10px;
+}
